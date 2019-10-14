@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		698BD531530D48A8E0E4D116 /* Pods_VouchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDF17BD8F305A3AD2A7B771 /* Pods_VouchSDK.framework */; };
+		74305E196CA096F5FE860081 /* Pods_VouchSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655234DBAD0860AE7D432592 /* Pods_VouchSDK_iOS.framework */; };
 		A046F739235074DB00FF6A8F /* VouchSDKViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046F6BC235074DA00FF6A8F /* VouchSDKViewModel.swift */; };
 		A046F73A235074DB00FF6A8F /* VouchSDKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046F6BD235074DA00FF6A8F /* VouchSDKViewController.swift */; };
 		A046F73B235074DB00FF6A8F /* VouchSDKTableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046F6BF235074DA00FF6A8F /* VouchSDKTableAdapter.swift */; };
@@ -99,13 +99,15 @@
 		A046F791235074DC00FF6A8F /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A046F736235074DB00FF6A8F /* Montserrat-Regular.ttf */; };
 		A046F792235074DC00FF6A8F /* Spectral-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A046F737235074DB00FF6A8F /* Spectral-Bold.ttf */; };
 		A046F793235074DC00FF6A8F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A046F738235074DB00FF6A8F /* Roboto-Bold.ttf */; };
-		A08FA4582314DE78000CC452 /* VouchSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A08FA4572314DE78000CC452 /* VouchSDK.podspec */; };
+		A08FA4582314DE78000CC452 /* VouchSDK-iOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A08FA4572314DE78000CC452 /* VouchSDK-iOS.podspec */; };
 		A097B60E2320DC5600ADFC99 /* VouchSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A097B60B2320DC5600ADFC99 /* VouchSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05F4CEDB5FC3B11420D121F8 /* Pods-VouchSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VouchSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VouchSDK/Pods-VouchSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		4C333904B11FC41BF61EA718 /* Pods-VouchSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VouchSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-VouchSDK/Pods-VouchSDK.release.xcconfig"; sourceTree = "<group>"; };
+		655234DBAD0860AE7D432592 /* Pods_VouchSDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VouchSDK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A306953B84E4D3B786B4AE5 /* Pods-VouchSDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VouchSDK-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VouchSDK-iOS/Pods-VouchSDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A046F6BC235074DA00FF6A8F /* VouchSDKViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VouchSDKViewModel.swift; sourceTree = "<group>"; };
 		A046F6BD235074DA00FF6A8F /* VouchSDKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VouchSDKViewController.swift; sourceTree = "<group>"; };
 		A046F6BF235074DA00FF6A8F /* VouchSDKTableAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VouchSDKTableAdapter.swift; sourceTree = "<group>"; };
@@ -197,11 +199,11 @@
 		A046F736235074DB00FF6A8F /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		A046F737235074DB00FF6A8F /* Spectral-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spectral-Bold.ttf"; sourceTree = "<group>"; };
 		A046F738235074DB00FF6A8F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		A08FA44B2314D501000CC452 /* VouchSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VouchSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08FA44B2314D501000CC452 /* VouchSDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VouchSDK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08FA44F2314D501000CC452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A08FA4572314DE78000CC452 /* VouchSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VouchSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08FA4572314DE78000CC452 /* VouchSDK-iOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "VouchSDK-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A097B60B2320DC5600ADFC99 /* VouchSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VouchSDK.h; sourceTree = "<group>"; };
-		DCDF17BD8F305A3AD2A7B771 /* Pods_VouchSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VouchSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E653EE349BE1402415BCA2 /* Pods-VouchSDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VouchSDK-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VouchSDK-iOS/Pods-VouchSDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,7 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				698BD531530D48A8E0E4D116 /* Pods_VouchSDK.framework in Frameworks */,
+				74305E196CA096F5FE860081 /* Pods_VouchSDK_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +221,7 @@
 		5EC9B1B9989A6870D0DA0455 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCDF17BD8F305A3AD2A7B771 /* Pods_VouchSDK.framework */,
+				655234DBAD0860AE7D432592 /* Pods_VouchSDK_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -612,7 +614,7 @@
 		A08FA4412314D501000CC452 = {
 			isa = PBXGroup;
 			children = (
-				A08FA4572314DE78000CC452 /* VouchSDK.podspec */,
+				A08FA4572314DE78000CC452 /* VouchSDK-iOS.podspec */,
 				A08FA44D2314D501000CC452 /* VouchSDK */,
 				A08FA44C2314D501000CC452 /* Products */,
 				C81475BCC0E418DB838BE73E /* Pods */,
@@ -623,7 +625,7 @@
 		A08FA44C2314D501000CC452 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A08FA44B2314D501000CC452 /* VouchSDK.framework */,
+				A08FA44B2314D501000CC452 /* VouchSDK_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -644,6 +646,8 @@
 			children = (
 				05F4CEDB5FC3B11420D121F8 /* Pods-VouchSDK.debug.xcconfig */,
 				4C333904B11FC41BF61EA718 /* Pods-VouchSDK.release.xcconfig */,
+				9A306953B84E4D3B786B4AE5 /* Pods-VouchSDK-iOS.debug.xcconfig */,
+				F3E653EE349BE1402415BCA2 /* Pods-VouchSDK-iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -662,9 +666,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A08FA44A2314D501000CC452 /* VouchSDK */ = {
+		A08FA44A2314D501000CC452 /* VouchSDK-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A08FA4532314D501000CC452 /* Build configuration list for PBXNativeTarget "VouchSDK" */;
+			buildConfigurationList = A08FA4532314D501000CC452 /* Build configuration list for PBXNativeTarget "VouchSDK-iOS" */;
 			buildPhases = (
 				7F164D698CB04193C97750E1 /* [CP] Check Pods Manifest.lock */,
 				A08FA4462314D501000CC452 /* Headers */,
@@ -676,9 +680,9 @@
 			);
 			dependencies = (
 			);
-			name = VouchSDK;
+			name = "VouchSDK-iOS";
 			productName = VouchSDK;
-			productReference = A08FA44B2314D501000CC452 /* VouchSDK.framework */;
+			productReference = A08FA44B2314D501000CC452 /* VouchSDK_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -696,7 +700,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A08FA4452314D501000CC452 /* Build configuration list for PBXProject "VouchSDK" */;
+			buildConfigurationList = A08FA4452314D501000CC452 /* Build configuration list for PBXProject "VouchSDK-iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -708,7 +712,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A08FA44A2314D501000CC452 /* VouchSDK */,
+				A08FA44A2314D501000CC452 /* VouchSDK-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -729,7 +733,7 @@
 				A046F78E235074DC00FF6A8F /* JosefinSans-Regular.ttf in Resources */,
 				A046F782235074DC00FF6A8F /* PhotoViewer.storyboard in Resources */,
 				A046F789235074DC00FF6A8F /* Spectral-Regular.ttf in Resources */,
-				A08FA4582314DE78000CC452 /* VouchSDK.podspec in Resources */,
+				A08FA4582314DE78000CC452 /* VouchSDK-iOS.podspec in Resources */,
 				A046F78D235074DC00FF6A8F /* Oswald-Regular.ttf in Resources */,
 				A046F785235074DC00FF6A8F /* OpenSansCondensed-Regular.ttf in Resources */,
 				A046F792235074DC00FF6A8F /* Spectral-Bold.ttf in Resources */,
@@ -762,7 +766,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VouchSDK-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VouchSDK-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -971,7 +975,7 @@
 		};
 		A08FA4542314D501000CC452 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05F4CEDB5FC3B11420D121F8 /* Pods-VouchSDK.debug.xcconfig */;
+			baseConfigurationReference = 9A306953B84E4D3B786B4AE5 /* Pods-VouchSDK-iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1002,7 +1006,7 @@
 		};
 		A08FA4552314D501000CC452 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C333904B11FC41BF61EA718 /* Pods-VouchSDK.release.xcconfig */;
+			baseConfigurationReference = F3E653EE349BE1402415BCA2 /* Pods-VouchSDK-iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1033,7 +1037,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A08FA4452314D501000CC452 /* Build configuration list for PBXProject "VouchSDK" */ = {
+		A08FA4452314D501000CC452 /* Build configuration list for PBXProject "VouchSDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A08FA4512314D501000CC452 /* Debug */,
@@ -1042,7 +1046,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A08FA4532314D501000CC452 /* Build configuration list for PBXNativeTarget "VouchSDK" */ = {
+		A08FA4532314D501000CC452 /* Build configuration list for PBXNativeTarget "VouchSDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A08FA4542314D501000CC452 /* Debug */,
