@@ -1,14 +1,14 @@
 PODS:
-  - Alamofire (4.8.2)
+  - Alamofire (4.9.0)
   - FSQCollectionViewAlignedLayout (1.1.1)
   - GrowingTextView (0.7.1)
-  - IQKeyboardManager (6.4.0)
-  - SDWebImage (5.1.0):
-    - SDWebImage/Core (= 5.1.0)
-  - SDWebImage/Core (5.1.0)
+  - IQKeyboardManager (6.5.0)
+  - SDWebImage (5.2.3):
+    - SDWebImage/Core (= 5.2.3)
+  - SDWebImage/Core (5.2.3)
   - Socket.IO-Client-Swift (15.1.0):
     - Starscream (~> 3.1)
-  - Starscream (3.1.0)
+  - Starscream (3.1.1)
   - SwiftAudio (0.11.1)
   - SwiftyJSON (5.0.0)
   - UIColor_Hex_Swift (5.1.0)
@@ -25,7 +25,7 @@ DEPENDENCIES:
   - UIColor_Hex_Swift
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Alamofire
     - FSQCollectionViewAlignedLayout
     - GrowingTextView
@@ -38,13 +38,13 @@ SPEC REPOS:
     - UIColor_Hex_Swift
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   FSQCollectionViewAlignedLayout: 122006b230bf5635ae159f1ad1eaa9b5ef11391e
   GrowingTextView: 6dff7eedf2fc93f8378d20d456782afd0267b0cc
-  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
-  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  IQKeyboardManager: 700e5155d6a292383b54e8678aec769e14fc78fc
+  SDWebImage: 46a7f73228f84ce80990c786e4372cf4db5875ce
   Socket.IO-Client-Swift: 7cb44c0ffb86e158cee32d0642d30ec5fdcf8f61
-  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftAudio: f71f0a94068539bf7819b6cc753c0e5dec89621f
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   UIColor_Hex_Swift: 8be7432edacb7fa91c78aa05ef3c30b66e4f9415
