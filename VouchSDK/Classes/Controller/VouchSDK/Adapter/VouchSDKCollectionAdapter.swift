@@ -5,7 +5,7 @@
 //  Created by Ajie Pramono Arganata on 05/09/19.
 //
 
-import Foundation
+import UIKit
 
 enum VouchSDKCollectionEnum: Int {
     case gallery = 0

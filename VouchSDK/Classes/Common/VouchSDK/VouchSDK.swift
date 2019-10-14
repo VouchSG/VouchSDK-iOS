@@ -6,7 +6,7 @@
 //  Copyright © 2019 GITS Indonesia. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public protocol VouchSDK {
     func initSDK(callback: VouchCallback)

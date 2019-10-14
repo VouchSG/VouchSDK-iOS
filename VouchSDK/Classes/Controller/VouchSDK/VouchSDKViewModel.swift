@@ -6,7 +6,7 @@
 //  Copyright © 2019 GITS Indonesia. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class VouchSDKViewModel: VouchCallback {
     private var application: UIApplication!

@@ -16,7 +16,7 @@ internal struct Constant {
     public static let PREF_API_KEY = "api-key"
     public static let PREF_SOCKET_TICKET = "socket-key-ticket"
     
-    public static let VOUCH_SDK = "VouchSDK"
+    public static let VOUCH_SDK = "VouchSDK-iOS"
     public static let VOUCH_STORYBOARD = "Vouch"
     public static let PHOTO_VIEWER_STORYBOARD = "PhotoViewer"
     

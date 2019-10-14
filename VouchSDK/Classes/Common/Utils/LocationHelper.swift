@@ -5,6 +5,7 @@
 //  Created by Ajie Pramono Arganata on 18/09/19.
 //
 
+import UIKit
 import CoreLocation
 
 internal class LocationHelper: NSObject {
