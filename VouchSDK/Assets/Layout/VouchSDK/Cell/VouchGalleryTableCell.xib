@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VouchGalleryTableCell" rowHeight="112" id="Udi-NT-v1N" customClass="VouchGalleryTableCell" customModule="VouchSDK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Udi-NT-v1N" id="xbH-2C-Fwq">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="111.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="FFE-6s-Fhk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="119.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="119.5" id="024-6e-iom"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="fq4-XV-qBW">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="8" minY="8" maxX="8" maxY="8"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="FFE-6s-Fhk" firstAttribute="leading" secondItem="xbH-2C-Fwq" secondAttribute="leading" id="Iu9-z7-Jdy"/>
+                    <constraint firstAttribute="bottom" secondItem="FFE-6s-Fhk" secondAttribute="bottom" id="WTc-6M-yCd"/>
+                    <constraint firstItem="FFE-6s-Fhk" firstAttribute="top" secondItem="xbH-2C-Fwq" secondAttribute="top" id="t0p-vO-0ZO"/>
+                    <constraint firstAttribute="trailing" secondItem="FFE-6s-Fhk" secondAttribute="trailing" id="uvQ-5h-waO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="collectionHeight" destination="024-6e-iom" id="CPp-jy-Pnc"/>
+                <outlet property="collectionVw" destination="FFE-6s-Fhk" id="IlM-vo-SdK"/>
+            </connections>
+            <point key="canvasLocation" x="86.956521739130437" y="-443.97321428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
