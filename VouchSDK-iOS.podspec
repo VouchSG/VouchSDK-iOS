@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'VouchSDK-iOS'
-  s.version      = '0.0.1'
+  s.version      = '0.0.3'
   s.summary      = 'Vouch SDK is an chat module'
   s.description  = 'Vouch SDK is an chat app that can be used in any project'
   s.homepage     = 'https://github.com/VouchSG/VouchSDK-iOS'
@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.author             = { 'Vouch' => 'ajie@gits.co.id' }
   s.platform     = :ios, '10.0'
   s.source       = { :git => 'https://github.com/VouchSG/VouchSDK-iOS.git', :tag => s.version }
-  s.source_files = 'VouchSDK-iOS/Classes', 'VouchSDK-iOS/Classes/**/*.{h,m,swift}'
-  s.resource_bundles = { 'VouchSDK-iOS' => ['VouchSDK-iOS/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,bundle,ttf}']}
+  s.source_files = 'VouchSDK/Classes', 'VouchSDK/Classes/**/*.{h,m,swift}'
+  s.resource_bundles = { 'VouchSDK' => ['VouchSDK/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,bundle,ttf}']}
 
   s.dependency 'Alamofire'
   s.dependency 'FSQCollectionViewAlignedLayout'
