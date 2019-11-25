@@ -1,0 +1,11 @@
+framework module VouchSDK_iOS {
+  umbrella header "VouchSDK_iOS.h"
+
+  export *
+  module * { export * }
+}
+
+module VouchSDK_iOS.Swift {
+    header "VouchSDK_iOS-Swift.h"
+    requires objc
+}
