@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'VouchSDK-iOS-Framework'
+  s.name         = 'VouchSDK-iOS'
   s.version      = '0.0.8'
   s.summary      = 'Vouch SDK is an chat module'
   s.description  = 'Vouch SDK is an chat app that can be used in any project'
