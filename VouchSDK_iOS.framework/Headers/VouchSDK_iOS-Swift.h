@@ -183,9 +183,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import CoreGraphics;
+@import Foundation;
 @import GrowingTextView;
 @import ObjectiveC;
+@import QuartzCore;
 @import UIKit;
 #endif
 
@@ -206,7 +209,44 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@class UIColor;
 @class NSCoder;
+@class UITouch;
+@class UIEvent;
+
+SWIFT_CLASS("_TtC12VouchSDK_iOS8MKButton")
+@interface MKButton : UIButton
+@property (nonatomic) BOOL maskEnabled;
+@property (nonatomic) CGFloat cornerRadius;
+@property (nonatomic) CGFloat elevation;
+@property (nonatomic) CGSize shadowOffset;
+@property (nonatomic) UIRectCorner roundingCorners;
+@property (nonatomic) BOOL rippleEnabled;
+@property (nonatomic) CFTimeInterval rippleDuration;
+@property (nonatomic) CGFloat rippleScaleRatio;
+@property (nonatomic, strong) UIColor * _Nonnull rippleLayerColor;
+@property (nonatomic) BOOL backgroundAnimationEnabled;
+@property (nonatomic) CGRect bounds;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesCancelled:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+@end
+
+@class CAAnimation;
+
+SWIFT_CLASS("_TtC12VouchSDK_iOS7MKLayer")
+@interface MKLayer : CALayer <CAAnimationDelegate>
+- (nonnull instancetype)initWithLayer:(id _Nonnull)layer SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
+- (void)animationDidStop:(CAAnimation * _Nonnull)anim finished:(BOOL)flag;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class UIScrollView;
 
 /// This is a class created for PagingScrollView
@@ -286,8 +326,6 @@ SWIFT_CLASS("_TtC12VouchSDK_iOS15ZoomContentView")
 @end
 
 
-@class UITouch;
-@class UIEvent;
 
 SWIFT_CLASS("_TtC12VouchSDK_iOS17ZoomingScrollView")
 @interface ZoomingScrollView : UIScrollView <UIScrollViewDelegate>
@@ -489,9 +527,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import CoreGraphics;
+@import Foundation;
 @import GrowingTextView;
 @import ObjectiveC;
+@import QuartzCore;
 @import UIKit;
 #endif
 
@@ -512,7 +553,44 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@class UIColor;
 @class NSCoder;
+@class UITouch;
+@class UIEvent;
+
+SWIFT_CLASS("_TtC12VouchSDK_iOS8MKButton")
+@interface MKButton : UIButton
+@property (nonatomic) BOOL maskEnabled;
+@property (nonatomic) CGFloat cornerRadius;
+@property (nonatomic) CGFloat elevation;
+@property (nonatomic) CGSize shadowOffset;
+@property (nonatomic) UIRectCorner roundingCorners;
+@property (nonatomic) BOOL rippleEnabled;
+@property (nonatomic) CFTimeInterval rippleDuration;
+@property (nonatomic) CGFloat rippleScaleRatio;
+@property (nonatomic, strong) UIColor * _Nonnull rippleLayerColor;
+@property (nonatomic) BOOL backgroundAnimationEnabled;
+@property (nonatomic) CGRect bounds;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesCancelled:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+@end
+
+@class CAAnimation;
+
+SWIFT_CLASS("_TtC12VouchSDK_iOS7MKLayer")
+@interface MKLayer : CALayer <CAAnimationDelegate>
+- (nonnull instancetype)initWithLayer:(id _Nonnull)layer SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
+- (void)animationDidStop:(CAAnimation * _Nonnull)anim finished:(BOOL)flag;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class UIScrollView;
 
 /// This is a class created for PagingScrollView
@@ -592,8 +670,6 @@ SWIFT_CLASS("_TtC12VouchSDK_iOS15ZoomContentView")
 @end
 
 
-@class UITouch;
-@class UIEvent;
 
 SWIFT_CLASS("_TtC12VouchSDK_iOS17ZoomingScrollView")
 @interface ZoomingScrollView : UIScrollView <UIScrollViewDelegate>
