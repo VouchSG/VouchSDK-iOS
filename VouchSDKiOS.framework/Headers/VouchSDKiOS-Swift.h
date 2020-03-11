@@ -185,6 +185,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreFoundation;
 @import CoreGraphics;
+@import CoreLocation;
 @import Foundation;
 @import GrowingTextView;
 @import ObjectiveC;
@@ -208,6 +209,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+
+
+SWIFT_CLASS("_TtC11VouchSDKiOS14LocationHelper")
+@interface LocationHelper : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CLLocationManager;
+@class CLLocation;
+
+@interface LocationHelper (SWIFT_EXTENSION(VouchSDKiOS)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+@end
 
 @class UIColor;
 @class NSCoder;
@@ -286,22 +301,6 @@ SWIFT_PROTOCOL("_TtP11VouchSDKiOS24PagingScrollViewDelegate_")
 
 
 
-SWIFT_CLASS("_TtC11VouchSDKiOS11VideoPicker")
-@interface VideoPicker : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface VideoPicker (SWIFT_EXTENSION(VouchSDKiOS)) <UINavigationControllerDelegate>
-@end
-
-@class UIImagePickerController;
-
-@interface VideoPicker (SWIFT_EXTENSION(VouchSDKiOS)) <UIImagePickerControllerDelegate>
-- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
-- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
-@end
 
 
 SWIFT_PROTOCOL("_TtP11VouchSDKiOS23ZoomContentViewProtocol_")
@@ -529,6 +528,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreFoundation;
 @import CoreGraphics;
+@import CoreLocation;
 @import Foundation;
 @import GrowingTextView;
 @import ObjectiveC;
@@ -552,6 +552,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+
+
+SWIFT_CLASS("_TtC11VouchSDKiOS14LocationHelper")
+@interface LocationHelper : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CLLocationManager;
+@class CLLocation;
+
+@interface LocationHelper (SWIFT_EXTENSION(VouchSDKiOS)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+@end
 
 @class UIColor;
 @class NSCoder;
@@ -630,22 +644,6 @@ SWIFT_PROTOCOL("_TtP11VouchSDKiOS24PagingScrollViewDelegate_")
 
 
 
-SWIFT_CLASS("_TtC11VouchSDKiOS11VideoPicker")
-@interface VideoPicker : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface VideoPicker (SWIFT_EXTENSION(VouchSDKiOS)) <UINavigationControllerDelegate>
-@end
-
-@class UIImagePickerController;
-
-@interface VideoPicker (SWIFT_EXTENSION(VouchSDKiOS)) <UIImagePickerControllerDelegate>
-- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
-- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
-@end
 
 
 SWIFT_PROTOCOL("_TtP11VouchSDKiOS23ZoomContentViewProtocol_")
